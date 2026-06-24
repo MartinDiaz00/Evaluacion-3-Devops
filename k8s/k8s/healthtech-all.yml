@@ -62,7 +62,7 @@ spec:
   ports:
   - port: 3306
     targetPort: 3306
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -112,7 +112,7 @@ spec:
   ports:
   - port: 8081
     targetPort: 8081
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -162,7 +162,7 @@ spec:
   ports:
   - port: 8082
     targetPort: 8082
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -212,7 +212,7 @@ spec:
   ports:
   - port: 8083
     targetPort: 8083
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -262,7 +262,7 @@ spec:
   ports:
   - port: 8084
     targetPort: 8084
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -312,7 +312,7 @@ spec:
   ports:
   - port: 8085
     targetPort: 8085
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -362,7 +362,7 @@ spec:
   ports:
   - port: 8086
     targetPort: 8086
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -412,7 +412,7 @@ spec:
   ports:
   - port: 8087
     targetPort: 8087
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -462,7 +462,7 @@ spec:
   ports:
   - port: 8088
     targetPort: 8088
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -512,7 +512,7 @@ spec:
   ports:
   - port: 8089
     targetPort: 8089
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -562,7 +562,7 @@ spec:
   ports:
   - port: 8090
     targetPort: 8090
-  type: ClusterIP
+  type: LoadBalancer
 
 ---
 apiVersion: apps/v1
@@ -612,4 +612,4 @@ spec:
   ports:
   - port: 8091
     targetPort: 8091
-  type: ClusterIP
+  type: LoadBalancer
